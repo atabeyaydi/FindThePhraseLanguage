@@ -1,5 +1,5 @@
 # FindThePhraseLanguage
-  This is a question which asked in one of the interview of Company for Data Engineer.
+  This question is asked in one of the interviews of Company for Data Engineer.
   
   Write a function that, for a string phrase as an argument, returns a string that indicates the language to which this phrase      belongs. 
   If you can't determine the language or an error occurs - your function should return unknown.
