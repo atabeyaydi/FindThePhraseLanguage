@@ -6,8 +6,9 @@
 
 Note:
    Please avoid using any libraries or functions (langdetect, Polyglot, etc.) for detecting a language. The task is about you writing an algorithm based on the input data and dataset you have.
-
+  
 lang_dataset = { 
+
                 "lang1": "The gladdest moment in life is a departure into unknown lands. Travel makes one modest. You see what a tiny place you occupy in the world. Better to see something once than hear about it a thousand times.", 
                 
                 "lang2": "İnsan hayatındaki en mutlu an, bilinmeyen topraklara doğru yola çıkmaktır. Seyahat bir mütevazı yapar. Dünyada ne kadar küçük bir yer işgal ett", 
