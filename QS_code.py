@@ -38,12 +38,12 @@ def solution(phrase):
         score = score + 1
         dictionary_score[lang] = score
     
-    mx_score = max(dictionary_score.values())
-    mx_lang = max(dct_score, key = dictionary_score.get)
+    maxScore = max(dictionary_score.values())
+    maxLang = max(dictionary_score, keyword = dictionary_score.get)
   
-  if mx_score == 0:
-    return 'no language found'
+  if maxScore == 0:
+    return 'No Language Found!'
   else:
-    return mx_lang
+    return maxLang
   
 print(solution(phrase));
