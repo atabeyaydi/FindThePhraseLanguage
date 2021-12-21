@@ -18,22 +18,28 @@ lang_dataset = {
 phrase = "ThIs Is hAppy Life"
  
 def solution(phrase):
-  dct_score = {}
+  dictionary_score = {}
   
-  #lower
-  lst = phrase.split(" ")
+  # Lower
+  counter_list = phrase.split(" ")
   
-  for lang, sentence in lang_dataset.items():
-    scr = 0
+  # phrase = phrase.lower().split(" ")
+  # dataset = [] 
+  # for keyword in range(len(lang_dataset)):
+  #     dataset.append(list(lang_dataset.values())[keyword].lower())
+  # counter_list = []
+  
+  for lang, sentence in lang_dataset.items(): 
+    score = 0
     
-    for word in lst:
-      #lower
-      if word in sentence:
-        scr = scr + 1
-        dct_score[lang] = scr
+    for keyword in counter_list:
+      # Lower
+      if keyword in sentence:
+        score = score + 1
+        dictionary_score[lang] = score
     
-    mx_score = max(dct_score.values())
-    mx_lang = max(dct_score, key=dct_score.get)
+    mx_score = max(dictionary_score.values())
+    mx_lang = max(dct_score, key = dictionary_score.get)
   
   if mx_score == 0:
     return 'no language found'
