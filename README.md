@@ -9,11 +9,18 @@ Note:
 
 lang_dataset = { 
                 "lang1": "The gladdest moment in life is a departure into unknown lands. Travel makes one modest. You see what a tiny place you occupy in the world. Better to see something once than hear about it a thousand times.", 
+                
                 "lang2": "İnsan hayatındaki en mutlu an, bilinmeyen topraklara doğru yola çıkmaktır. Seyahat bir mütevazı yapar. Dünyada ne kadar küçük bir yer işgal ett", 
-                "lang3": "Радісний момент у житті людини це опинитися на невідомих землях. Подорож робить тебе скромним. Ти бачиш, яке маленьке місце займаєш у світі. Краще побачити щось один раз, ніж почути про це тисячу разів." }
+                
+                "lang3": "Радісний момент у житті людини це опинитися на невідомих землях. Подорож робить тебе скромним. Ти бачиш, яке маленьке місце займаєш у світі. Краще побачити щось один раз, ніж почути про це тисячу разів." 
+                }
 
 phrase = "ThIs Is hAppy Life"
+
 ...
+
 def solution(phrase):
+
 ...
+
 print(solution(phrase))
